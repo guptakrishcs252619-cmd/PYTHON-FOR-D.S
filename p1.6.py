@@ -1,0 +1,13 @@
+numbers = [10, 25, 5, 40, 15, 30, 20, 50, 35, 45]
+print("Original List:", numbers)
+print("Maximum:", max(numbers))
+print("Minimum:", min(numbers))
+print("Average:", sum(numbers) / len(numbers))
+ascending = sorted(numbers)
+descending = sorted(numbers, reverse=True)
+print("Ascending Order:", ascending)
+print("Descending Order:", descending)
+numbers.append(60)
+print("After Adding 60:", numbers)
+numbers.pop(0)
+print("After Removing First Item:", numbers)

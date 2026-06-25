@@ -1,0 +1,6 @@
+a= int(input(" enter 1 no."))
+b= int(input(" enter 2 no."))
+c= int(input(" enter 3 no."))
+d= int(input(" enter 4 no."))
+k = ( a + b + c + d )
+print (" sum of no. ", k)
